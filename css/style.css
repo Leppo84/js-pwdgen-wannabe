@@ -1,0 +1,16 @@
+body {
+    font-family: monospace;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+
+}
+
+header {
+    background-color: rgb(170, 170, 170);
+}
+
+#pw{
+    color: rgb(135, 0, 20);
+}
