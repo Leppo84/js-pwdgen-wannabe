@@ -11,7 +11,10 @@ const pwcolor= prompt ("Ottimo " + pwname + ", ora scegli un colore ed è fatta!
 
 const genpw=(pwname) + (pwsurname) + (pwcolor) + "21";  
 
+document.getElementById("name").innerHTML=(pwname);
+
 document.getElementById("pw").innerHTML=(genpw);
 
 console.log("la password segheta è: " + (genpw));
+
 
