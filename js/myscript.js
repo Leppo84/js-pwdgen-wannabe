@@ -7,7 +7,7 @@ const pwname= prompt ("Ciao! Inserisci il tuo nome...");
 
 const pwsurname= prompt ("Grande! Inserisci il tuo cognome...");
 
-const pwcolor= prompt ("Ottimo" + pwname + ", ora scegli un colore ed è fatta!");
+const pwcolor= prompt ("Ottimo " + pwname + ", ora scegli un colore ed è fatta!");
 
 const genpw=(pwname) + (pwsurname) + (pwcolor) + "21";  
 
